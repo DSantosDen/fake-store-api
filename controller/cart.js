@@ -61,7 +61,7 @@ module.exports.addCart = (req, res) => {
 
 		//     .then(() => {
 		const cart = {
-			id: 11,
+			id: 12,
 			userId: req.body.userId,
 			date: req.body.date,
 			products: req.body.products,
